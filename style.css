@@ -1,0 +1,131 @@
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    color: var(--very-dark-desaturated-blue);
+}
+
+.container {
+    background: var(--dark-cyan);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.card {
+    background: white;
+    text-align: center;
+    max-width: 350px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-header {
+    width: 350px;
+    height: 150px;
+    background: url(./images/bg-pattern-card.svg);
+    background-size: cover;
+}
+
+.img-sec {
+    width: 110px;
+    height: 110px;   
+    border: 5px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: -50px auto -30px auto;
+}
+
+.img-sec img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    margin-top: 54px;
+    margin-bottom: -75px;
+    height: 250px;
+    line-height: 1.7rem;
+}
+
+.card-body .age, .card-body .city {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--dark-gray);
+}
+
+.card-body .name {
+    font-size: 1.3rem;
+}
+
+.card-body .city {
+    font-size: 1rem;
+}
+
+.card-footer .act{
+    display: block;
+    font-size: .8rem;
+    font-weight: 400;
+    color: var(--dark-gray);
+    letter-spacing: 1px;
+}
+
+.card-footer h3 {
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+.card-footer {
+    padding-top: 22px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-top: 1px solid lightgray;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    line-height: 1.4rem;
+}
+ 
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* Circle Graphics */
+
+.circles .c1, .circles .c2 {
+    position: absolute;
+}
+
+.circles .c1 {
+    top: -568px;
+    left: -230px;
+}
+
+.circles .c2 {
+    bottom: -568px;
+    right: -230px;
+}
