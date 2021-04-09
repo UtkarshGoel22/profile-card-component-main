@@ -46,4 +46,4 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This helped me learning about flex-box and its properties.
 
-- [MDN] (https://developer.mozilla.org/en-US/) - Best resource for HTML5 and CSS3.
+- [MDN](https://developer.mozilla.org/en-US/) - Best resource for HTML5 and CSS3.
